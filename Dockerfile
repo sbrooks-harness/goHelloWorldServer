@@ -1,4 +1,5 @@
 FROM alpine:3.12
+# This should trigger a build
 # Add Maintainer Info
 LABEL maintainer="Nofar Bluestein <nofarb@gmail.com>"
 # Copy the Go binary into the image. The Go binary must be
